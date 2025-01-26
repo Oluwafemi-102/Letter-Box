@@ -1,0 +1,539 @@
+*{
+  margin: 0%;
+  padding: 0%;
+  box-sizing: border-box;
+}
+body {
+  overflow-x: hidden;
+  font-family: cursive;
+}
+.container {
+  background-color: black;
+  color: white;
+  width: 130vmin;
+  margin-top: 10vmin;
+  padding-bottom: 3vmin;
+}
+
+#title {
+  font-size: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#writersaddress {
+  margin-left: 100vmin;
+}
+#select{
+  margin-top: 3vmin;
+  display: flex;
+  justify-content: space-between;
+}
+#story {
+  display: none;
+}
+
+#topic {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-decoration: underline;
+  font-size: 30px;
+}
+
+#button {
+  padding-top: 2vmin;
+  display: flex;
+  gap: 1vmin;
+  justify-content: center;
+  align-items: center;
+  margin-top: 3vmin;
+  margin-bottom: 3vmin;
+  height: 5vmin;
+  width: 10vmin;
+  background-color: white;
+  color: black;
+}
+
+#button:hover {
+  cursor: pointer;
+}
+
+.fa-chevron-right {
+  margin-bottom: 2vmin;
+}
+
+.fa-chevron-left {
+  margin-bottom: 2vmin;
+}
+
+#button2 {
+  padding-top: 2vmin;
+  display: flex;
+  gap: 1vmin;
+  justify-content: center;
+  align-items: center;
+  margin-top: 3vmin;
+  margin-bottom: 3vmin;
+  height: 5vmin;
+  width: 10vmin;
+  background-color: white;
+  color: black;
+}
+
+#formOne2 {
+  display: none;
+  margin: auto;
+}
+
+#salutation {
+  margin-left: 5vmin
+}
+
+#buttons {
+  margin-top: 40px;
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.edit {
+  width: 10vmin;
+  background-color: blue;
+  color: white;
+  box-shadow: 0px 0px 10px 5px red;
+  margin-top: 4vmin;
+}
+
+#printButton {
+  width: 10vmin;
+  background-color: blue;
+  color: white;
+  box-shadow: 0px 0px 10px 5px red;
+  margin-top: 4vmin;
+}
+
+#printButton:hover {
+  background-color: black;
+}
+
+#closing {
+  margin-left: 100vmin;
+}
+
+
+
+
+
+
+/* Media queries */
+@media(max-width: 480px) {
+  .container {
+    background-color: black;
+    color: white;
+    width: 90%;
+    margin-top: 10vmin;
+    padding-bottom: 3vmin;
+  }
+
+  #title {
+    font-size: 3vmin;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  #writersaddress {
+    margin-left: 60vmin;
+  }
+
+  p {
+    font-size: 2vmin;
+  }
+
+  #closing {
+    margin-left: 60vmin;
+  }
+
+  .edit {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 10vmin;
+    background-color: blue;
+    color: white;
+    box-shadow: 0px 0px 10px 5px red;
+    margin-top: 4vmin;
+    font-size: 3vmin;
+  }
+
+  #printButton {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 10vmin;
+    background-color: blue;
+    color: white;
+    box-shadow: 0px 0px 10px 5px red;
+    margin-top: 4vmin;
+  }
+}
+
+@media(min-width: 481px) {
+  .container {
+    background-color: black;
+    color: white;
+    width: 80%;
+    margin-top: 10vmin;
+    padding-bottom: 3vmin;
+  }
+
+  #title {
+    font-size: 3vmin;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  #writersaddress {
+    margin-left: 52vmin;
+  }
+
+  p {
+    font-size: 2vmin;
+  }
+
+  #closing {
+    margin-left: 52vmin;
+  }
+
+  .edit {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 10vmin;
+    background-color: blue;
+    color: white;
+    box-shadow: 0px 0px 10px 5px red;
+    margin-top: 4vmin;
+  }
+
+  #printButton {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 10vmin;
+    background-color: blue;
+    color: white;
+    box-shadow: 0px 0px 10px 5px red;
+    margin-top: 4vmin;
+  }
+}
+
+@media(min-width: 768px) {
+  .container {
+    background-color: black;
+    color: white;
+    width: 100%;
+    margin-top: 10vmin;
+    padding-bottom: 3vmin;
+  }
+
+  #title {
+    font-size: 3vmin;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  #writersaddress {
+    margin-left: 70vmin;
+  }
+
+  p {
+    font-size: 2vmin;
+  }
+
+  #closing {
+    margin-left: 78vmin;
+  }
+
+  .edit {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 10vmin;
+    background-color: blue;
+    color: white;
+    box-shadow: 0px 0px 10px 5px red;
+    margin-top: 4vmin;
+  }
+
+  #printButton {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 10vmin;
+    background-color: blue;
+    color: white;
+    box-shadow: 0px 0px 10px 5px red;
+    margin-top: 4vmin;
+  
+  }
+}
+@media(min-width: 992px) {
+  .container {
+    background-color: black;
+    color: white;
+    width: 100%;
+    margin-top: 10vmin;
+    padding-bottom: 3vmin;
+  }
+
+  #title {
+    font-size: 3vmin;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  #writersaddress {
+    margin-left: 110vmin;
+  }
+
+  p {
+    font-size: 2vmin;
+  }
+
+  #closing {
+    margin-left: 110vmin;
+  }
+
+  .edit {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 10vmin;
+    background-color: blue;
+    color: white;
+    box-shadow: 0px 0px 10px 5px red;
+    margin-top: 4vmin;
+  }
+
+  #printButton {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 10vmin;
+    background-color: blue;
+    color: white;
+    box-shadow: 0px 0px 10px 5px red;
+    margin-top: 4vmin;
+  
+  }
+}
+@media(min-width: 1200px) {
+  .container {
+    background-color: black;
+    color: white;
+    width: 100%;
+    height: 20%;
+    margin-top: 10vmin;
+    padding-bottom: 3vmin;
+  }
+
+  #title {
+    font-size: 3vmin;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  #writersaddress {
+    margin-left: 138vmin;
+  }
+
+  p {
+    font-size: 2vmin;
+  }
+
+  #closing {
+    margin-left: 138vmin;
+  }
+
+  .edit {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 10vmin;
+    background-color: blue;
+    color: white;
+    box-shadow: 0px 0px 10px 5px red;
+    margin-top: 4vmin;
+  }
+
+  #printButton {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 10vmin;
+    background-color: blue;
+    color: white;
+    box-shadow: 0px 0px 10px 5px red;
+    margin-top: 4vmin;
+  
+  }
+}
+@media(min-width: 1400px) {
+  .container {
+    background-color: black;
+    color: white;
+    width: 100%;
+    height: 20%;
+    margin-top: 10vmin;
+    padding-bottom: 3vmin;
+  }
+
+  #title {
+    font-size: 3vmin;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  #writersaddress {
+    margin-left: 150vmin;
+  }
+
+  p {
+    font-size: 3vmin;
+  }
+
+  #closing {
+    margin-left: 150vmin;
+  }
+
+  .edit {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 10vmin;
+    background-color: blue;
+    color: white;
+    box-shadow: 0px 0px 10px 5px red;
+    margin-top: 4vmin;
+  }
+
+  #printButton {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 10vmin;
+    background-color: blue;
+    color: white;
+    box-shadow: 0px 0px 10px 5px red;
+    margin-top: 4vmin;
+  
+  }
+}
+@media(min-width: 1564px) {
+  .container {
+    background-color: black;
+    color: white;
+    margin-top: 10vmin;
+    padding-bottom: 3vmin;
+  }
+
+  #title {
+    font-size: 3vmin;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  #writersaddress {
+    margin-left: 118vmin;
+  }
+
+  p {
+    font-size: 2vmin;
+  }
+
+  #closing {
+    margin-left: 118vmin;
+  }
+
+  .edit {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 10vmin;
+    background-color: blue;
+    color: white;
+    box-shadow: 0px 0px 10px 5px red;
+    margin-top: 4vmin;
+  }
+
+  #printButton {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 10vmin;
+    background-color: blue;
+    color: white;
+    box-shadow: 0px 0px 10px 5px red;
+    margin-top: 4vmin;
+  
+  }
+}
+
+@media(min-width: 2065px) {
+  .container {
+    background-color: black;
+    color: white;
+    margin-top: 10vmin;
+    padding-bottom: 3vmin;
+  }
+
+  #title {
+    font-size: 3vmin;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  #writersaddress {
+    margin-left: 90vmin;
+  }
+
+  p {
+    font-size: 2vmin;
+  }
+
+  #closing {
+    margin-left: 90vmin;
+  }
+
+  .edit {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 10vmin;
+    background-color: blue;
+    color: white;
+    box-shadow: 0px 0px 10px 5px red;
+    margin-top: 4vmin;
+  }
+
+  #printButton {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 10vmin;
+    background-color: blue;
+    color: white;
+    box-shadow: 0px 0px 10px 5px red;
+    margin-top: 4vmin;
+  
+  }
+}
