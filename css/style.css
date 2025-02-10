@@ -1,18 +1,23 @@
-*{
+* {
   margin: 0%;
   padding: 0%;
   box-sizing: border-box;
 }
+
 body {
-  overflow-x: hidden;
   font-family: cursive;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  overflow-x: hidden;
 }
-.container {
+
+.container2 {
   background-color: black;
   color: white;
-  width: 130vmin;
-  margin-top: 10vmin;
-  padding-bottom: 3vmin;
+  width: 90%;
+  padding: 20px;
 }
 
 #title {
@@ -23,15 +28,20 @@ body {
 }
 
 #writersaddress {
-  margin-left: 100vmin;
+  width: 100%;
+  display: flex;
+  justify-content: flex-end;
 }
-#select{
+
+#select {
   margin-top: 3vmin;
   display: flex;
   justify-content: space-between;
 }
+
 #story {
   display: none;
+  width: 100%;
 }
 
 #topic {
@@ -58,6 +68,7 @@ body {
 
 #button:hover {
   cursor: pointer;
+  background-color: white;
 }
 
 .fa-chevron-right {
@@ -85,6 +96,7 @@ body {
 #formOne2 {
   display: none;
   margin: auto;
+  padding-right: 30vmin;
 }
 
 #salutation {
@@ -118,7 +130,9 @@ body {
 }
 
 #closing {
-  margin-left: 100vmin;
+  width: 100%;
+  display: flex;
+  justify-content: flex-end;
 }
 
 
@@ -143,16 +157,9 @@ body {
     align-items: center;
   }
 
-  #writersaddress {
-    margin-left: 60vmin;
-  }
 
   p {
     font-size: 2vmin;
-  }
-
-  #closing {
-    margin-left: 60vmin;
   }
 
   .edit {
@@ -195,17 +202,10 @@ body {
     align-items: center;
   }
 
-  #writersaddress {
-    margin-left: 52vmin;
-  }
-
   p {
     font-size: 2vmin;
   }
 
-  #closing {
-    margin-left: 52vmin;
-  }
 
   .edit {
     display: flex;
@@ -246,17 +246,11 @@ body {
     align-items: center;
   }
 
-  #writersaddress {
-    margin-left: 70vmin;
-  }
 
   p {
     font-size: 2vmin;
   }
 
-  #closing {
-    margin-left: 78vmin;
-  }
 
   .edit {
     display: flex;
@@ -278,9 +272,10 @@ body {
     color: white;
     box-shadow: 0px 0px 10px 5px red;
     margin-top: 4vmin;
-  
+
   }
 }
+
 @media(min-width: 992px) {
   .container {
     background-color: black;
@@ -297,17 +292,11 @@ body {
     align-items: center;
   }
 
-  #writersaddress {
-    margin-left: 110vmin;
-  }
-
   p {
     font-size: 2vmin;
   }
 
-  #closing {
-    margin-left: 110vmin;
-  }
+
 
   .edit {
     display: flex;
@@ -329,9 +318,10 @@ body {
     color: white;
     box-shadow: 0px 0px 10px 5px red;
     margin-top: 4vmin;
-  
+
   }
 }
+
 @media(min-width: 1200px) {
   .container {
     background-color: black;
@@ -349,16 +339,8 @@ body {
     align-items: center;
   }
 
-  #writersaddress {
-    margin-left: 138vmin;
-  }
-
   p {
     font-size: 2vmin;
-  }
-
-  #closing {
-    margin-left: 138vmin;
   }
 
   .edit {
@@ -381,9 +363,10 @@ body {
     color: white;
     box-shadow: 0px 0px 10px 5px red;
     margin-top: 4vmin;
-  
+
   }
 }
+
 @media(min-width: 1400px) {
   .container {
     background-color: black;
@@ -391,7 +374,6 @@ body {
     width: 100%;
     height: 20%;
     margin-top: 10vmin;
-    padding-bottom: 3vmin;
   }
 
   #title {
@@ -401,16 +383,8 @@ body {
     align-items: center;
   }
 
-  #writersaddress {
-    margin-left: 150vmin;
-  }
-
   p {
-    font-size: 3vmin;
-  }
-
-  #closing {
-    margin-left: 150vmin;
+    font-size: 2vmin;
   }
 
   .edit {
@@ -433,9 +407,10 @@ body {
     color: white;
     box-shadow: 0px 0px 10px 5px red;
     margin-top: 4vmin;
-  
+
   }
 }
+
 @media(min-width: 1564px) {
   .container {
     background-color: black;
@@ -451,16 +426,8 @@ body {
     align-items: center;
   }
 
-  #writersaddress {
-    margin-left: 118vmin;
-  }
-
   p {
     font-size: 2vmin;
-  }
-
-  #closing {
-    margin-left: 118vmin;
   }
 
   .edit {
@@ -483,7 +450,7 @@ body {
     color: white;
     box-shadow: 0px 0px 10px 5px red;
     margin-top: 4vmin;
-  
+
   }
 }
 
@@ -502,16 +469,8 @@ body {
     align-items: center;
   }
 
-  #writersaddress {
-    margin-left: 90vmin;
-  }
-
   p {
     font-size: 2vmin;
-  }
-
-  #closing {
-    margin-left: 90vmin;
   }
 
   .edit {
@@ -534,6 +493,6 @@ body {
     color: white;
     box-shadow: 0px 0px 10px 5px red;
     margin-top: 4vmin;
-  
+
   }
 }
