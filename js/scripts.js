@@ -30,9 +30,21 @@ $(document).ready(function () {
     $("#formOne").show();
 
   });
+  $("#button3").click(function () {
+    $("#formOne").hide();
+    $("#formOne2").hide();
+    $("#formOne3").show();
+
+  });
+  $("#button4").click(function () {
+    $("#formOne").hide();
+    $("#formOne3").hide();
+    $("#formOne2").show();
+
+  });
 
 
-  $("#formOne2").submit(function (event) {
+  $("#formOne3").submit(function (event) {
     event.preventDefault();
     const receiveraddInput = $("#receiveradd").val();
     const busstop2Input = $("#busstop2").val();
@@ -63,6 +75,11 @@ $(document).ready(function () {
     $(".year").text(yearInput);
 
 
+
+    const reasonsInput = $("#reason").val();
+    const futureInstancesInput = $("#futureInstances").val();    
+    $(".reason").text(reasonsInput);
+    $(".futureInstances").text(futureInstancesInput);
 
 
 

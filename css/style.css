@@ -22,11 +22,15 @@ body {
   padding: 20px;
 }
 
-#title p{
+#title{
   font-size: 5vmin;
   display: flex;
+  flex-direction: column;
   justify-content: center;
   align-items: center;
+}
+#title p{
+  font-size: 5vmin;
 }
 
 #writersaddress {
@@ -94,8 +98,43 @@ body {
   background-color: white;
   color: black;
 }
+#button3 {
+  padding-top: 2vmin;
+  display: flex;
+  gap: 1vmin;
+  justify-content: center;
+  align-items: center;
+  margin-top: 3vmin;
+  margin-bottom: 3vmin;
+  height: 5vmin;
+  width: 10vmin;
+  background-color: white;
+  color: black;
+}
+#button4 {
+  padding-top: 2vmin;
+  display: flex;
+  gap: 1vmin;
+  justify-content: center;
+  align-items: center;
+  margin-top: 3vmin;
+  margin-bottom: 3vmin;
+  height: 5vmin;
+  width: 10vmin;
+  background-color: white;
+  color: black;
+}
+.flex1{
+  display: flex;
+  justify-content: space-around;
+}
 
 #formOne2 {
+  display: none;
+  margin: auto;
+  padding-right: 30vmin;
+}
+#formOne3 {
   display: none;
   margin: auto;
   padding-right: 30vmin;
