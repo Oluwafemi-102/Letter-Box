@@ -1,0 +1,248 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color:  rgb(44, 43, 43); 
+}
+
+a {
+    text-decoration: none;
+    color: white;
+    font-weight: 600;
+}
+a:hover{
+    text-decoration: underline;
+}
+nav{
+    background-color: red;
+    margin-bottom: 10vmin;
+}
+
+#night-mode {
+    margin-top: 5vmin;
+    margin-bottom: 7vmin;
+    padding: 0 5vmin;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 3vmin;
+}
+
+#mode {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 2vmin;
+    height: 5vmin;
+    width: 13vmin;
+    border-radius: 5vmin;
+}
+
+#mode:hover {
+    background-color: rgb(182, 178, 178);
+    cursor: pointer;
+}
+
+#mode2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 2vmin;
+    height: 5vmin;
+    width: 13vmin;
+    border-radius: 5vmin;
+}
+
+#mode2:hover {
+    background-color: rgb(182, 178, 178);
+    cursor: pointer;
+}
+
+.white-background {
+    background-color: white;
+}
+
+.black-background {
+    background-color: black;
+}
+.text-color{
+    color: white;
+}
+.text-color2{
+    color: black;
+}
+
+
+#title {
+    box-shadow: 0 0 7px green;
+    /* background-color: black; */
+    color: white;
+    margin: 1px auto;
+    padding-top: 3vmin;
+    padding-left: 1vmin;
+    padding-right: 2vmin;
+    width: 45vw;
+    height: 15vh;
+    display: flex;
+    justify-content: space-around;
+
+}
+#title:hover{
+    cursor: pointer;
+}
+
+#toptext {
+    margin-left: 4vmin;
+    margin-right: 2vmin;
+    padding-right: 1vmin;
+    height: 10vmin;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    flex-wrap: wrap;
+    align-items: center;
+    font-size: 3vmin;
+    font-weight: 700;
+    color: white;
+    border-right: 2px solid yellow;
+}
+
+#cover {
+    display: flex;
+    justify-content: center;
+}
+
+#flashcard {
+    box-shadow: 0 0 7px green;
+    margin: 30px auto;
+    /* background-color: black; */
+    height: 40vh;
+    width: 50vw;
+    font-size: 10vmin;
+}
+
+.flashtext {
+    color: white;
+    height: 30vmin;
+    display: flex;
+    font-size: 6vmin;
+    justify-content: center;
+    align-items: center;
+}
+
+.icons {
+    display: flex;
+    justify-content: space-around;
+    gap: 20vmin;
+    margin-top: 21px;
+}
+ 
+.click {
+    width: 40px;
+    height: 40px;
+    border-radius: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+}
+.click:hover{
+    cursor: pointer;
+    background-color: rgb(145, 141, 141);
+}
+
+.fa-solid {
+    font-size: 20px;
+}
+
+#flashcard2 {
+    box-shadow: 0 0 7px green;
+    margin: 30px auto;
+    height: 40vh;
+    width: 50vw;
+    font-size: 10vmin;
+    display: none;
+}
+
+#flashcard3 {
+    box-shadow: 0 0 7px green;
+    margin: 30px auto;
+    height: 40vh;
+    width: 50vw;
+    font-size: 10vmin;
+    display: none;
+}
+
+#flashcard4 {
+    box-shadow: 0 0 10px green;
+    margin: 30px auto;
+    height: 40vh;
+    width: 50vw;
+    font-size: 10vmin;
+    display: none;
+}
+
+#flashcard5 {
+    box-shadow: 0 0 7px green;
+    margin: 30px auto;
+    height: 40vh;
+    width: 50vw;
+    font-size: 10vmin;
+    display: none;
+}
+
+
+
+#definition1 {
+    box-shadow: 0 0 7px green;
+    margin: 30px auto;
+    height: 40vh;
+    width: 50vw;
+    display: none;
+}
+
+#icons {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20vmin;
+}
+
+.def {
+    font-size: 3vmin;
+}
+
+#definition2 {
+    box-shadow: 0 0 7px green;
+    margin: 30px auto;
+    height: 40vh;
+    width: 50vw;
+    display: none;
+}
+
+#definition3 {
+    box-shadow: 0 0 7px green;
+    margin: 30px auto;
+    height: 40vh;
+    width: 50vw;
+    display: none;
+}
+
+#definition4 {
+    box-shadow: 0 0 7px green;
+    margin: 30px auto;
+    height: 40vh;
+    width: 50vw;
+    display: none;
+}
+
+#definition5 {
+    box-shadow: 0 0 7px green;
+    margin: 30px auto;
+    height: 40vh;
+    width: 50vw;
+    display: none;
+}

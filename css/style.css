@@ -9,9 +9,6 @@
 body {
   font-family: cursive;
   height: 100vh;
-  display: flex;
-  justify-content: center;
-  align-items: center;
   overflow-x: hidden;
 }
 
@@ -20,6 +17,7 @@ body {
   color: white;
   width: 90%;
   padding: 20px;
+  margin: auto;
 }
 
 #title{
